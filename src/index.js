@@ -8,6 +8,3 @@ import "./styles.css";
 // import testImage from "./test.png";
 // const image = document.createElement("img");
 // image.src = testImage;
-
-// Log to console -----------
-console.log("hello world");
