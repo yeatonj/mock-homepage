@@ -1,0 +1,20 @@
+@media (width <= 600px) {
+    .about-links a img {
+        height: 30px;
+        width: auto;
+    }
+
+    .project-header a img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.project-header {
+    display: flex;
+}
