@@ -84,6 +84,10 @@ h3 {
         background: none;
     }
 
+    .project-card {
+        margin-bottom: 60px;
+    }
+
     #about-photo {
         background: linear-gradient(-30deg, var(--color-two) 50%, var(--color-three) 50%);
     }
