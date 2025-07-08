@@ -13,6 +13,14 @@
 
 :root {
     font-family: 'Roboto', sans-serif;
+    --color-one: #FFFAEC;
+    --color-two: #F5ECD5;
+    --color-three: #578E7E;
+    --color-four: #3D3D3D;
+}
+
+body {
+    background-color: var(--color-one);
 }
 
 h1, h2, h3, h4, h5 {
