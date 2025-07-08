@@ -1,3 +1,24 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./font/Roboto-Regular-webfont.woff") format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Neuton';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./font/neuton-v23-latin-regular.woff2') format('woff2');
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Neuton', Times, serif;
+}
+
 @media (width <= 600px) {
     .about-links a img {
         height: 30px;
