@@ -53,7 +53,7 @@ h3 {
 }
 
 #about {
-    background: linear-gradient(-30deg, var(--color-two) 50%, var(--color-three) 50%);
+    background: linear-gradient(-20deg, var(--color-two) 50%, var(--color-three) 50%);
 }
 
 .project-card {
@@ -99,6 +99,10 @@ h3 {
 }
 
 @media (width <= 600px) {
+    .float-block {
+        display: none;
+    }
+
     #about {
         background: none;
     }
@@ -180,3 +184,46 @@ h3 {
 
 }
 
+@media (width <= 900px) {
+    #about {
+        margin-bottom: 40px;
+        position: relative;
+        padding-top: 100px;
+    }
+
+    #about-photo {
+        margin-top: 40px;
+        margin-left: 30px;
+        position: absolute;
+        top: 0px;
+    }
+    #about-photo h1 {
+        position: absolute;
+        top: -10px;
+        right: -150px;
+    }
+
+    #about-photo img {
+        height: 300px;
+        width: auto;
+    }
+
+    .about-links {
+        display: none;
+    }
+
+    #about-body {
+        background-color: white;
+        padding: 35 30 35 30;
+        margin-left: 100px;
+        margin-right: 100px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+
+    #about-body .float-block {
+        float: left;
+        width: 300px;
+        height: 200px;
+    }
+
+}
