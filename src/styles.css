@@ -98,7 +98,7 @@ h3 {
     background-color: var(--color-three);
 }
 
-@media (width <= 600px) {
+@media (width <= 670px) {
     .float-block {
         display: none;
     }
@@ -184,7 +184,7 @@ h3 {
 
 }
 
-@media (width <= 900px) {
+@media (width <= 900px) and (width > 670px) {
     #about {
         margin-bottom: 40px;
         position: relative;
@@ -214,7 +214,7 @@ h3 {
 
     #about-body {
         background-color: white;
-        padding: 35 30 35 30;
+        padding: 35px 30px 35px 30px;
         margin-left: 100px;
         margin-right: 100px;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
