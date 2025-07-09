@@ -332,7 +332,7 @@ h3 {
         padding-top: 10px;
     }
 
-    /* #contact {
+    #contact {
         display: flex;
         gap: 50px;
         align-items: center;
@@ -341,12 +341,12 @@ h3 {
     }
 
     .contact-photo {
-        width: 250px;
+        width: 500px;
         height: auto;
     }
 
     .contact-links {
         justify-content: left;
-    } */
+    }
 
 }
