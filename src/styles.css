@@ -259,6 +259,17 @@ h3 {
 
 
 @media (width > 900px) {
+    body {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 30px minmax(0px, 1400px) 30px;
+    }
+
+    #work, #about, #contact {
+        grid-column: 2 / 3;
+    }
+
+
     #about {
         margin-bottom: 40px;
         position: relative;
